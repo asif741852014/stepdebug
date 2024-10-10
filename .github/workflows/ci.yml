@@ -1,0 +1,8 @@
+name: abc
+on: 
+  push
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "::debug::executing the setup script"
